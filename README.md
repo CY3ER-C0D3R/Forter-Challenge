@@ -3,57 +3,62 @@ Count number of unique names in a transaction
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+After cloning the repository, run the file named unit_tests.py.  
+Preferably, run via the command prompt. Works also in any python IDE.
 
-### Prerequisites
+### Installing and Running
+ 
+The Function `def countUniqueNames(billFirstName, billLastName, shipFirstName, shipLastName, billNameOnCard)` is the main function being tested in this program and can be found in the count_unique_names.py file.  
+Make sure all three files are in the same directory. Then, run unit_test.py. 
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Output should be as following:
 
 ```
-Give the example
+Welcome to my countUniqueNames function!
+This function counts the number of unique names in a transaction.
+Press any key to continue...
 ```
 
-And repeat
+After pressing any key, the following screen should appear:
 
 ```
-until finished
+Options (enter a number from the list bellow):
+  1) Run Unit Tests (Automatically)
+  2) Run Unit Test (Manual)
+  3) Change Max Number Of Typos
+  4) Print the current Max Number Of Typos
+  5) Help
+  6) Clear Screen
+  7) Exit
+
+>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+To run a manual unit test press 2 and enter the transaction information.  
+To run a pre-written unit test press 1. *Advise: Run this option first*.  
+Output should be something of the sort:
+
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***********************************************************************
+                Should count perfectly equal unique names
+***********************************************************************
+Running new Test with parameters:
+billFirstName = Deborah
+billLastName = Egli
+shipFirstName = Deborah
+shipLastName = Egli
+billNameOnCard = Deborah Egli
+Num of unique people found in transaction: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************************************
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Use the option menu to change the max number of allowed typos.  
+Enter different information and get different outputs.  
+Also, check if automatic unit test gave the desired output.
 
 ## Built With
 
