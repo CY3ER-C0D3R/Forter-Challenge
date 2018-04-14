@@ -8,7 +8,9 @@ Preferably, run via the command prompt. Works also in any python IDE.
 
 ### Installing and Running
  
-The Function `def countUniqueNames(billFirstName, billLastName, shipFirstName, shipLastName, billNameOnCard)` is the main function being tested in this program and can be found in the count_unique_names.py file.  
+The Function ```python 
+def countUniqueNames(billFirstName, billLastName, shipFirstName, shipLastName, billNameOnCard)``` 
+is the main function being tested in this program and can be found in the count_unique_names.py file.  
 Make sure all three files are in the same directory. Then, run unit_test.py. 
 
 Output should be as following:
@@ -53,7 +55,6 @@ shipLastName = Egli
 billNameOnCard = Deborah Egli
 Num of unique people found in transaction: 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*****************************************************************
 ```
 
 ## Running the tests
@@ -70,12 +71,6 @@ Also, check if automatic unit test gave the desired output.
 
 * **Yuval Stein** 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 Thanks to Dan Connor for the nickname list - see original [here](https://github.com/onyxrev/common_nickname_csv).
-
-
