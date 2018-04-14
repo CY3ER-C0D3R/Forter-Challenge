@@ -35,7 +35,9 @@ Options (enter a number from the list bellow):
 ```
 
 To run a manual unit test press 2 and enter the transaction information.  
-To run a pre-written unit test press 1. *Advise: Run this option first*.  
+To run a pre-written unit test press 1.  
+*Advice: Run the pre-written unit test first*.  
+
 Output should be something of the sort:
 
 ```
@@ -56,7 +58,7 @@ Num of unique people found in transaction: 1
 
 ## Running the tests
 
-Use the option menu to change the max number of allowed typos.  
+Use the options menu to change the max number of allowed typos.  
 Enter different information and get different outputs.  
 Also, check if automatic unit test gave the desired output.
 
