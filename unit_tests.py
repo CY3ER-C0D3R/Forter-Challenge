@@ -69,7 +69,7 @@ def describe_unit_test(description):
     :param description: string, some text to print out
     :return: Function used for pretty printing
     """
-    print '***************' + '*'*len(description) + '***************'
+    print '***************' + '*' * len(description) + '***************'
     print '                ' + description + '                '
     print '***************' + '*' * len(description) + '***************'
 
