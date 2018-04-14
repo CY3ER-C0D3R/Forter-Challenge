@@ -8,14 +8,16 @@ Preferably, run via the command prompt. Works also in any python IDE.
 
 ### Installing and Running
  
-The Function ```python 
-def countUniqueNames(billFirstName, billLastName, shipFirstName, shipLastName, billNameOnCard)``` 
+The Function:   
+```python 
+def countUniqueNames(billFirstName, billLastName, shipFirstName, shipLastName, billNameOnCard)
+``` 
 is the main function being tested in this program and can be found in the count_unique_names.py file.  
 Make sure all three files are in the same directory. Then, run unit_test.py. 
 
 Output should be as following:
 
-```python
+```
 Welcome to my countUniqueNames function!
 This function counts the number of unique names in a transaction.
 Press any key to continue...
@@ -23,7 +25,7 @@ Press any key to continue...
 
 After pressing any key, the following screen should appear:
 
-```Python
+```
 Options (enter a number from the list bellow):
   1) Run Unit Tests (Automatically)
   2) Run Unit Test (Manual)
