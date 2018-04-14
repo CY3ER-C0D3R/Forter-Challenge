@@ -15,7 +15,7 @@ Make sure all three files are in the same directory. Then, run unit_test.py.
 
 Output should be as following:
 
-```
+```python
 Welcome to my countUniqueNames function!
 This function counts the number of unique names in a transaction.
 Press any key to continue...
@@ -23,7 +23,7 @@ Press any key to continue...
 
 After pressing any key, the following screen should appear:
 
-```
+```Python
 Options (enter a number from the list bellow):
   1) Run Unit Tests (Automatically)
   2) Run Unit Test (Manual)
